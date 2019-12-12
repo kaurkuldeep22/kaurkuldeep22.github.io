@@ -25,8 +25,8 @@ Java script:
 
 
 # Kuldeep Kaur
-### Login page: It includes login and registration .Customers can login  their account and create a new account.
-JavaScript:
+### Login page: It includes login and registration .Customers can login  their account and create a new account.(login.html)
+JavaScript:(login.js)
 * to display message if Username is null
 * to display message if length is less than 5 and greater than 15.
 * to display message if username is not matched with given regular expressoin.
@@ -34,15 +34,15 @@ JavaScript:
 * to display message if password is null.
 * to display message if the password is not matched with given regular expression.
 
-### Contact Page: It includes the email address and contact details .Customers can contact using their   Username.
-JavaScript:
+### Contact Page: It includes the email address and contact details .Customers can contact using their   Username.(contact.html)
+JavaScript:(contact.js)
 * to display message if Username is null
 * to display message if length is less than 5 and greater than 15.
 * to display message if username is not matched with given regular expressoin.
 * to display message if subject is null
 
-### Bus Page: It includes bus ticket booking form .
-JavaScript:
+### Bus Page: It includes bus ticket booking form .(bus.html)
+JavaScript:(bus.js)
 * to display message if Username is null
 * to display message if length is less than 5 and greater than 15.
 * to display message if username is not matched with given regular expressoin.
@@ -54,18 +54,18 @@ JavaScript:
 
 # Gurpreet Kaur
 ### About us Page: It includes information regarding website from where visitors will get to know about our website.
-javascript:
+javascript:(about.js)
 * the mouseout event occurs when the mouse pointer is moved out of an element.
 * the mouseover event occurs when the mouse pointer is moved on to an element.
 
 ### Faq page: This will include series of questions that are commonly asked by visitors.
-JavaScript:
+JavaScript:(tourism.js)
 * to toggle between hiding and showing the active panel.
 * to highlight the button to control the panel.
 * to add and remove the active class.
 
 ### Payment page: This page will include various payment method details that how visitor can pay money.
-JavaScript:
+JavaScript:(payment.js)
 * to display message if cardholder name is not provided.
 * to display message if cvv or cardnumber is not provided.
 
