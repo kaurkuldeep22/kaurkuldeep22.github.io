@@ -1,0 +1,225 @@
+body{
+  height:750px;
+}
+
+
+  h1{
+    text-align:center;
+    font-weight: bold;
+  }
+  h2{
+    text-align:center;
+    font-weight: bold;
+  }
+
+   .color
+  {
+  color:#ff5733;
+  }
+  .form {
+    border: 3px solid #f1f1f1  ;
+   margin-top:40px;
+    margin-bottom:100px;
+  }
+  .container {
+    margin:1em;
+     padding:10px;
+     }
+   .box
+   {      /*sign in*/
+     border:0px hidden ;
+     margin-right:700px;
+     margin-top:160px;
+     margin-left:45px;
+
+}
+.box h2{
+  background-color:black;
+
+  color:white;
+  margin:0px;
+  height:40px;
+  }
+.box1 /*registration*/
+{
+  border:0px hidden;
+  padding-top:5px;
+  float:right;
+  margin-right:45px;
+  margin-left:45px;
+  margin-top: -550px;
+  width: 600px;
+
+
+}
+.box1 h2{
+  background-color:black;
+
+  color:white;
+  margin:0px;
+  height:40px;
+  }
+.box2{     /*contact us*/
+
+  padding-top:5px;
+  border:0px hidden ;
+
+  margin-top:-260px;
+  float:right;
+  margin-right:60px;
+  margin-left:45px;
+
+}
+.box2 h2{
+  background-color:black;
+
+  color:white;
+  margin:0px;
+  height:40px;
+  }
+.box3      /*bus booking*/
+{
+     border:0px hidden ;
+     margin-right:700px;
+     margin-bottom:10px;
+     margin-top:290px;
+}
+.box3 h2{
+  background-color:black;
+  color:white;
+  margin:0px;
+  height:40px;
+}
+ .text,.psw   /*form input fields  */
+  {
+   width: 100%;
+   padding: 12px 0px;
+   margin: 8px 0;
+  }
+
+ .subject{            /*subject field*/
+     width: 100%;
+     padding: 12px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+     margin-top: 6px;
+     margin-bottom: 16px;
+     resize: vertical;
+   }
+   .login {  /*button*/
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+
+    width: 100%;
+  }
+
+.info  /*contact information*/
+{
+  border:0px hidden ;
+  background-color:black;
+  color:white;
+  margin-top:12em;
+ padding-bottom:2em;
+  margin-right:49em;
+  padding-left:4em;
+  padding-right:11em;
+  margin-left:4em;
+}
+.info h2{
+  float:left;
+}
+.info a{
+  color:white;
+  font-weight:bold;
+  float:left;
+}
+.img
+{
+  padding-top:5px;
+  float:right;
+  margin-right:0px;
+  margin-left:1px;
+  margin-top: -900px;
+ margin-bottom: 50px;
+  }
+ .submitbtn
+  {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #4CAF50;
+  }
+  .registerbtn
+  {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #4CAF50;
+  }
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+
+  }
+
+  span.link {
+
+    padding-top: 16px;
+   padding-left: 50px;
+  }
+
+ /*responsive */
+  @media screen and (max-width: 1000px) {
+
+    .box{
+
+     width:100%;
+
+      }
+
+      .box1{
+        float:left;
+         margin-top:-6em;
+         margin-left:0em;
+         margin-right:0em;
+         width:auto;
+         margin-bottom:6em;
+      }
+      .box2
+{
+ float:left;
+ margin-top:-6em;
+ margin-left:0em;
+ margin-right:0em;
+ width:auto;
+ margin-bottom:6em;
+
+}
+.box3{
+  width:100%;
+}
+
+.info
+{
+  margin-left:1em;
+  margin-bottom:2em;
+  padding-right:15em;
+   width:25%;
+
+}
+
+
+      .login
+      {
+      width:auto;
+      }
+
+    .cancelbtn {
+      width: auto;
+
+    }
+
+}

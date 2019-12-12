@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>login</title>
+    <meta charset="utf-8">
+    <metaname="viewport" content="width-device-width , initial scale=1">
+    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/footer.css">
+     <link rel="stylesheet" href="css/all.css">
+    </head>
+<body>
+        <header>
+              <div>
+                  <img src="images/logo.jpg" alt="Travel_logo" class="shape">
+               </div>
+        </header>
+
+        <nav>
+        <div class="navbar1">
+          <a href="index.html" class="op"><i class="fa fa-fw fa-home"></i>Home</a>
+          <a href="flight.html" class="op"><i class="fas fa-plane-departure"></i>Flight</a>
+          <a href="hotel.html" class="op"><i class="fas fa-hotel"></i>Hotel</a>
+          <a href="cabs.html" class="op"><i class="fas fa-taxi"></i>Cabs</a>
+          <a href="bus.html" class="op"><i class="fas fa-bus"></i>Buses</a>
+          <a href="packages.html" class="op"><i class="fas fa-briefcase"></i>Packages</a>
+          <a href="giftcard.html" class="op"><i class="fas fa-gift"></i>Gift Card</a>
+          <a href="login.html" id="account" class="op"><i class="fa fa-fw fa-user"></i>Login</a>
+        </div>
+        </nav>
+     <main class="box">
+
+            <form  method="get" name="form" class="form" action="home.html">
+                  <h2>SIGN IN</h2>
+                    <div class="container">
+                      <label for="fname"><b>Username</b></label>
+                      <input type="text" placeholder="Enter Username" name="fname" id="fname" class="text">
+
+
+                      <label for="psw"><b>Password</b></label>
+                      <input type="password" placeholder="Enter Password" name="psw" id="psw" class="psw">
+
+                      <button type="button" value="register" class="login" onclick="validate()">Login</button>
+                      <label>
+                        <input type="checkbox" checked="checked" name="remember" > Remember me
+                      </label>
+
+                    </div>
+                    <div id="myLocation"></div>
+                 <div class="container" style="background-color:#f1f1f1">
+                      <button type="submit" class="cancelbtn">Cancel</button>
+                      <span class="link"> GO<a href="home.html">BACK</a></span>
+                    </div>
+
+                  </form>
+
+      </main>
+
+      <aside class="box1">
+      <form action="get" class="form"  name="form" action="home.html">
+          <h2>REGISTER</h2>
+        <div class="container">
+          <label for="username"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" id="uname" class="text">
+
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" id="pswd" class="psw">
+
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" id="confirmpsw" class="psw">
+        </div>
+        <div id="myLocation1"></div>
+          <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="registerbtn" onclick="regvalidate()">Register</button>
+          <span class="link"> GO<a href="home.html">BACK</a></span>
+          </div>
+        </form>
+  </aside>
+  <script src="js/login.js"></script>
+
+  <footer>
+        <div class="footer-main-div">
+      <div class="footer-social-icons">
+        <ul class="ul">
+          <li class="li"><a href="#" class="a"><i class="fab fa-facebook i"></i></a></li>
+              <li class="li"><a href="#" class="a"><i class="fab fa-twitter i"></i></a></li>
+                  <li class="li"><a href="#" class="a"><i class="fab fa-youtube i"></i></a></li>
+      <li class="li"><a href="#" class="a"><i class="fab fa-instagram i"></i></a></li>
+        </ul>
+      </div>
+      <div class="footer-menu-one">
+        <ul class="ul">
+          <li class="li"><a href="faq.html" class="a deco">FAQs</a></li>
+              <li class="li"><a href="contact.html" class="a deco">Contact Us</a></li>
+                  <li class="li"><a href="aboutus.html" class="a deco">About Us</a></li>
+                  <li class="li"><a href="index.html" class="a deco">Home</a></li>
+
+        </ul>
+      </div>
+    </div>
+      <div class="footer-bottom">
+        <p class="bottom">Copyright &copy; <a href="#" class="deco a">The Travelling Guide</a></p>
+      </div>
+        </footer>
+</body>
+</html>

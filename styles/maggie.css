@@ -1,0 +1,420 @@
+/*flight*/
+
+h1{
+    margin-left: 40%;
+}
+
+#flight-body{
+    background-image: url(../images/flightbgd.jpg);
+  }
+  
+  .flight-h4{
+    padding-top: 20px;
+    padding-left: 35px;
+    font-size: 1.3em;
+  }
+  
+  #flight-hr{
+    margin: 0 10px;
+  }
+  
+  .flight-wrapper{
+    height: 350px;
+    width: 550px;
+    margin:0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color:rgba(223, 223, 223, 0.9);
+  }
+  
+  .flightavai{
+    width: 240px;
+    float: left;
+    margin: 10px 0 10px 25px;
+  }
+  
+  .flight-btn{
+    height: 35px;
+    width: 200px;
+    background-color: #f0ad4e;
+    padding: 5px 20px;
+    margin-left:10px;
+    margin-top:10px;
+    font-size: 80%;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .flight-radio{
+    margin: 10px 0 10px 25px;
+    float:left;
+    width: 250px;
+  }
+  
+  .flight-date{
+    height: 35px;
+    width: 200px;
+    background-color: rgb(223, 219, 219);
+    margin-top:10px;
+  }
+  
+  .flight-location{
+    height: 35px;
+    width: 200px;
+    background-color: rgb(223, 219, 219);
+    margin-top:10px;
+  }
+
+  /*others*/
+
+  .btn-group .button:hover {
+    background-color: #3e8e41;
+  }
+  
+    .btn-group .button {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+     
+    }
+  
+  .button:active{
+    transform: translateY(4px);
+    background-color: blue;
+  }
+  
+  .input{
+    height:50px;
+  }
+  
+  label{
+    font-size:13px;
+  }
+  .shape {
+    height: auto;
+  }
+  #account{
+    float:right;
+    background-color:blue;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color:#15870b;
+    width:auto;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    padding: 20px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover{
+    background-color: #000;
+  }
+
+  .footer {
+	background-color: #333;
+  height:70px;
+  margin-top: 80px;
+	width: 97%;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.color {
+	color: #ff5733;
+}
+
+.flex-containers a{
+  text-decoration: none;
+  color:white;
+  font-size:20px;
+}
+
+.flex-containers{
+  display:flex;
+  justify-content: space-around;
+}
+
+/*packages*/
+
+h2{
+  color: #333;
+  margin-left: 40px;
+  font-size: 2.3em;
+  font-style: bold;
+}
+.packages{
+	padding:6em 0px;
+}
+
+.packages h3 {
+	font-size: 1.3em;
+	font-weight: 700;
+	color: #333;
+	margin: 3% 0 0 0;
+}
+
+.packages p{
+	margin-top: 2%;
+  line-height: 1.6em;
+  color: #333;
+}
+
+.packages ul{
+	padding:0;
+	margin:3% 0 0 0;
+}
+
+.packages ul li{
+	list-style-image: url(../images/side.png);
+	margin: 0px 0px 12px 18px;
+}
+
+.packages ul li a{
+  text-decoration: none;
+  color: rgb(146, 136, 136);
+}
+
+.packages ul li a:hover{
+	font-weight:600;
+	margin-left:8px;
+}
+
+.packages img{
+width: 500px;
+}
+
+.package1{
+  width: 45%;
+  height: 600px;
+ 
+  float: left;
+  padding: 15px;
+  margin-left:40px;
+}
+.package2{
+  width: 45%;
+  height: 600px;
+
+  float: left;
+  padding: 15px;
+  margin-left:10px;
+}
+.package3{
+  width: 45%;
+  height: 650px;
+
+  float: left;
+  padding: 15px;
+  margin-left:40px;
+}
+.package4{
+  width: 45%;
+  height: 650px;
+
+  float: left;
+  padding: 15px;
+  margin-left:10px;
+}
+.intro{
+  transition: 0.3s;
+}
+
+
+
+/*hotels*/
+
+#hotel-body{
+  background-image: url(../images/hotelbgd.jpg);
+  background-repeat: no-repeat;
+}
+
+.hotel-wrapper{
+  height: 400px;
+  width: 550px;
+  margin:0 auto;
+  margin-top: 40px;
+  background-color:rgba(223, 223, 223, 0.9);
+}
+
+.hotel-h4{
+  padding-top: 20px;
+  padding-left: 35px;
+  font-size: 1.3em;
+}
+
+#hotel-hr{
+  margin: 0 10px;
+}
+
+.hotel-check{
+  float: left;
+  margin: 10px 0 10px 25px;
+}
+
+.hotel-btn{
+  height: 35px;
+  width: 200px;
+  background-color: #f0ad4e;
+  padding: 5px 20px;
+  margin-left:280px;
+  margin-top:20px;
+  font-size: 80%;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.hotel-date{
+  height: 35px;
+  width: 200px;
+  background-color: rgb(223, 219, 219);
+  margin-top:10px;
+}
+
+.hotel-location{
+  height: 35px;
+  width: 200px;
+  background-color: rgb(223, 219, 219);
+  margin-top:10px;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#pop1{
+  height: 150px;
+  width: 35%;
+  margin: 20px 20px 20px 90px;
+  padding-top: 100px;
+  padding-left: 30px;
+  background-image: url(../images/c1.jpg);
+}
+
+#pop2{
+  height: 150px;
+  width: 35%;
+  margin: 20px;
+  padding-top: 100px;
+  padding-left: 30px;
+  background-image: url(../images/c2.jpg);
+}
+
+#pop3{
+  height: 150px;
+  width: 35%;
+  margin: 20px 20px 20px 90px;
+  padding-top: 100px;
+  padding-left: 30px;
+  background-image: url(../images/c3.jpg);
+}
+
+#pop4{
+  height: 150px;
+  width: 35%;
+  margin: 20px;
+  padding-top: 100px;
+  padding-left: 30px;
+  background-image: url(../images/c4.jpg);
+}
+
+#pop5{
+  height: 150px;
+  width: 35%;
+  margin: 20px 20px 20px 90px;
+  padding-top: 100px;
+  padding-left: 30px;
+  background-image: url(../images/c5.jpg);
+}
+
+#pop6{
+  height: 150px;
+  width: 35%;
+  margin: 20px;
+  padding-top: 100px;
+  padding-left: 30px;
+  background-image: url(../images/c6.jpg);
+}
+
+.cities{
+  font-size: 1.5em;
+  font-weight:bold;
+  color: #f1f1f1;;
+  margin-bottom: 10px;
+}
+
+.price{
+font-size: 1.3em;
+font-weight: bold;
+color: #f1f1f1;
+}
+
+.b-btn{
+  border: #f1f1f1 solid 1.5px;
+  border-radius: 5px;
+}
+
+#wrapper-hotels{
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 40px;
+  color:#f2f2f2;
+}
+
+#popular{
+  font-size:1.8em;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+#rooms{
+  float: left;
+  clear:left;
+  margin-left: 25px;
+}
+
+.left{
+  float: left;
+  margin-left: 5px;
+
+
+}
+
+
+.check{
+  float:left;
+  clear: left;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+.pop{
+  transition:0.5s;
+  box-sizing: unset;
+}
+

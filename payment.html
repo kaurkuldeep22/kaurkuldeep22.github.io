@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>payment page</title>
+    <link rel="stylesheet" href="styles/pay.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="css/all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<header>
+    <div>
+        <img src="images/logo.jpg" alt="Travel_logo" class="shape">
+        <h1>The Travelling Guide</h1>
+    </div>
+</header>
+
+<body background="images/321133.jpg">
+  <nav>
+  <div class="navbar1">
+    <a href="index.html" class="op"><i class="fa fa-fw fa-home"></i>Home</a>
+    <a href="flight.html" class="op"><i class="fas fa-plane-departure"></i>Flight</a>
+    <a href="hotel.html" class="op"><i class="fas fa-hotel"></i>Hotel</a>
+    <a href="cabs.html" class="op"><i class="fas fa-taxi"></i>Cabs</a>
+    <a href="bus.html" class="op"><i class="fas fa-bus"></i>Buses</a>
+    <a href="packages.html" class="op"><i class="fas fa-briefcase"></i>Packages</a>
+    <a href="giftcard.html" class="op"><i class="fas fa-gift"></i>Gift Card</a>
+    <a href="login.html" id="account" class="op"><i class="fa fa-fw fa-user"></i>Login</a>
+  </div>
+  </nav>
+    <main class="heading">
+
+        <form class="online" name="form" method="get" onclick="validate()">
+            <h2>PAY ONLINE</h2>
+            <div class="pay">
+
+                <label for="owner"><b>Cardholder Name</b></label>
+                <input type="text" class="form-control" id="owner" name="fname"><br>
+                <div id="name"></div>
+
+
+                <label for="cardNumber"><b>Card Number</b></label>
+                <input type="text" class="form-control" id="cardNumber" name="fnum">
+
+                <label for="cvv"><b>CVV</b></label>
+                <input type="text" class="form-control" id="cvv" name="fcvv">
+
+
+                <label><b>Expiration Date</b></label>
+                <select>
+                    <option value="01">January</option>
+                    <option value="02">February </option>
+                    <option value="03">March</option>
+                    <option value="04">April</option>
+                    <option value="05">May</option>
+                    <option value="06">June</option>
+                    <option value="07">July</option>
+                    <option value="08">August</option>
+                    <option value="09">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                </select>
+                <select>
+                    <option value="16"> 2016</option>
+                    <option value="17"> 2017</option>
+                    <option value="18"> 2018</option>
+                    <option value="19"> 2019</option>
+                    <option value="20"> 2020</option>
+                    <option value="21"> 2021</option>
+                </select><br><br>
+
+
+                <label for="cards"><b>Accepted cards</b></label>
+                <img src="images/paypal.png" style="color:navy;" width="8%" height="5%">
+                <img src="images/visa.png" style="color:blue;" width="8%" height="5%">
+                <img src="images/credit card.png" style="color:red;" width="8%" height="5%">
+
+
+                <!--<div class="container" style="background-color:#f1f1f1">-->
+                <button type="button" class="btn" id="make payment">Make a Payment</button>
+
+            </div>
+        </form>
+    </main>
+    <footer>
+       <div class="footer-main-div">
+          <div class="footer-social-icons">
+             <ul class="ul">
+                <li class="li"><a href="#" class="a"><i class="fab fa-facebook i"></i></a></li>
+                <li class="li"><a href="#" class="a"><i class="fab fa-twitter i"></i></a></li>
+                <li class="li"><a href="#" class="a"><i class="fab fa-youtube i"></i></a></li>
+                <li class="li"><a href="#" class="a"><i class="fab fa-instagram i"></i></a></li>
+             </ul>
+          </div>
+          <div class="footer-menu-one">
+             <ul class="ul">
+                <li class="li"><a href="faq.html" class="a deco">FAQs</a></li>
+                <li class="li"><a href="contact.html" class="a deco">Contact Us</a></li>
+                <li class="li"><a href="aboutus.html" class="a deco">About Us</a></li>
+                <li class="li"><a href="index.html" class="a deco">Home</a></li>
+             </ul>
+          </div>
+       </div>
+       <div class="footer-bottom">
+          <p class="bottom">Copyright &copy; <a href="#" class="deco a">The Travelling Guide</a></p>
+       </div>
+    </footer>
+
+      <script src="js/payment.js"></script>
+</body>
+
+</html>

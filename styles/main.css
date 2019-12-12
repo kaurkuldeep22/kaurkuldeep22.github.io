@@ -1,0 +1,32 @@
+/*header*/
+.shape{
+  float:left;
+  border-radius:50%;
+  height:25%;
+  width:15%;
+}
+
+/*navbar*/
+.navbar1 {
+  overflow: hidden;
+  background-color:#15870b;
+  width:auto;
+}
+
+.navbar1 .op {
+  float: left;
+  font-size: 20px;
+  color: white;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.navbar1 .op:hover{
+  background-color: #000;
+}
+
+#account{
+  float:right;
+  background-color:blue;
+
+/*footer*/

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+    <title>buses</title>
+        <meta charset="utf-8">
+        <metaname="viewport" content="width-device-width , initial scale=1">
+        <link rel="stylesheet" href="styles/login.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/footer.css">
+        <link rel="stylesheet" href="css/all.css">
+
+        </head>
+        <body>
+
+        <header>
+        <div>
+                  <img src="images/logo.jpg" alt="Travel_logo" class="shape">
+               </div>
+             </header>
+
+             <nav>
+             <div class="navbar1">
+               <a href="index.html" class="op"><i class="fa fa-fw fa-home"></i>Home</a>
+               <a href="flight.html" class="op"><i class="fas fa-plane-departure"></i>Flight</a>
+               <a href="hotel.html" class="op"><i class="fas fa-hotel"></i>Hotel</a>
+               <a href="cabs.html" class="op"><i class="fas fa-taxi"></i>Cabs</a>
+               <a href="bus.html" class="op"><i class="fas fa-bus"></i>Buses</a>
+               <a href="packages.html" class="op"><i class="fas fa-briefcase"></i>Packages</a>
+               <a href="giftcard.html" class="op"><i class="fas fa-gift"></i>Gift Card</a>
+               <a href="login.html" id="account" class="op"><i class="fa fa-fw fa-user"></i>Login</a>
+             </div>
+             </nav>
+
+
+
+            <main class="box3">
+
+                <div class="container">
+
+                            <form  method="get" name="form" action="payment.html">
+                                <h2>BOOK MY CAB</h2>
+                                  <div class="container">
+                                    <label for="uname"><b>Username</b></label>
+                                    <input type="text" class="text" placeholder="Enter Username" name="uname" id="fname">
+                                    <label for="psw"><b>Password</b></label>
+
+                                    <input type="password"  class="psw" placeholder="Enter Password" name="psw" id="psw" >
+
+
+                                    <label for="phn"><b>Phone Number</b></label>
+
+                                    <input type="number" class="text" placeholder="Enter Phone" name="phn" id="phone">
+
+
+                                    <label for="pick"><b>Pickup Location</b></label>
+
+                                    <input type="text" class="text" placeholder="Enter Location" name="pick" id="ploc">
+
+
+                                    <label for="drop"><b>DropOff Location</b></label>
+
+                                    <input type="text" class="text" placeholder="Enter Location" name="drop" id="dloc">
+
+
+                                    <label for="pickd"><b>PickupDate</b></label>
+
+                                    <input type="date" class="text" placeholder="Enter Date" name="pickd" id="pickdate">
+
+
+                                    <label for="Pickt"><b>PickupTime</b></label>
+
+                                    <input type="time" class="text" placeholder="Enter Time" name="picktime" id="picktime" >
+                                    <div id="myLocation"></div>
+                                    <div class="container" style="background-color:#f1f1f1">
+
+                                      <button type="button" class="submitbtn" onclick="validate()">BOOK MY CAB</button>
+
+                                      <span class="link"> GO<a href="home.html">BACK</a></span>
+                  </div>
+                  </form>
+        </div>
+       </main>
+         <aside class="img">
+              <img src="images/tourism.jpg" alt="Travel_logo">
+          </aside>
+      <script src="js/bus.js"></script>
+      <footer>
+          <div class="footer-main-div">
+        <div class="footer-social-icons">
+          <ul class="ul">
+            <li class="li"><a href="#" class="a"><i class="fab fa-facebook i"></i></a></li>
+                <li class="li"><a href="#" class="a"><i class="fab fa-twitter i"></i></a></li>
+                    <li class="li"><a href="#" class="a"><i class="fab fa-youtube i"></i></a></li>
+        <li class="li"><a href="#" class="a"><i class="fab fa-instagram i"></i></a></li>
+          </ul>
+        </div>
+        <div class="footer-menu-one">
+          <ul class="ul">
+            <li class="li"><a href="faq.html" class="a deco">FAQs</a></li>
+                <li class="li"><a href="contact.html" class="a deco">Contact Us</a></li>
+                    <li class="li"><a href="aboutus.html" class="a deco">About Us</a></li>
+                    <li class="li"><a href="index.html" class="a deco">Home</a></li>
+
+          </ul>
+        </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="bottom">Copyright &copy; <a href="#" class="deco a">The Travelling Guide</a></p>
+        </div>
+          </footer>
+  </body>
+  </html>

@@ -1,0 +1,107 @@
+<html>
+    <head>
+    <metaname="viewport" content="width-device-width , initial scale=1">
+    <link rel="stylesheet" href="styles/maggie.css">
+    <link rel="stylesheet" href="styles/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/footer.css">
+
+
+
+    <meta charset="utf-8">
+    <title>Flight</title>
+
+    </head>
+
+<body id="flight-body">
+
+  <header>
+    <img src="images/logo.jpg" alt="Travel_logo" class="shape">
+  </header>
+
+  <nav>
+  <div class="navbar1">
+    <a href="index.html" class="op"><i class="fa fa-fw fa-home"></i>Home</a>
+    <a href="flight.html" class="op"><i class="fas fa-plane-departure"></i>Flight</a>
+    <a href="hotel.html" class="op"><i class="fas fa-hotel"></i>Hotel</a>
+    <a href="cabs.html" class="op"><i class="fas fa-taxi"></i>Cabs</a>
+    <a href="bus.html" class="op"><i class="fas fa-bus"></i>Buses</a>
+    <a href="packages.html" class="op"><i class="fas fa-briefcase"></i>Packages</a>
+    <a href="giftcard.html" class="op"><i class="fas fa-gift"></i>Gift Card</a>
+    <a href="login.html" id="account" class="op"><i class="fa fa-fw fa-user"></i>Login</a>
+  </div>
+  </nav>
+
+
+    <div class="flight-wrapper">
+        <h4 class="flight-h4">Check flight availability for:</h4>
+        <hr id='flight-hr'>
+
+
+          <form id="form-submit" action="" method="get" onsubmit="return checkforblank">
+
+                <div class="flightavai">
+                        <label for="from">From:</label><br>
+                        <select id="select1" class="flight-location"></select>
+                </div>
+
+                <div class="flightavai">
+                        <label for="to">To:</label><br>
+                        <select id="select2" class="flight-location"></select>
+                </div>
+
+                <div class="flightavai">
+                        <label for="departure">Departure date:</label>
+                        <input required name="deparure" type="text" class="flight-date" id="dep-date">
+                </div>
+
+                <div class="flightavai">
+                        <label for="return">Return date:</label>
+                        <input required name="return" type="text" class="flight-date" id="ret-date">
+                </div>
+
+                <div class="flight-radio">
+                        <label for="round">Round</label>
+                        <input type="radio" name="trip" id="round" value="round" >
+                        <label for="oneway">Oneway</label>
+                        <input type="radio" name="trip" id="oneway" value="one-way">
+                </div>
+
+
+            <button type="button" id="submit" class="flight-btn">Order Ticket Now</button>
+
+    </form>
+            </div>
+
+
+    <footer>
+        <div class="footer-main-div">
+      <div class="footer-social-icons">
+        <ul class="ul">
+          <li class="li"><a href="#" class="a"><i class="fab fa-facebook i"></i></a></li>
+              <li class="li"><a href="#" class="a"><i class="fab fa-twitter i"></i></a></li>
+                  <li class="li"><a href="#" class="a"><i class="fab fa-youtube i"></i></a></li>
+      <li class="li"><a href="#" class="a"><i class="fab fa-instagram i"></i></a></li>
+        </ul>
+      </div>
+      <div class="footer-menu-one">
+        <ul class="ul">
+          <li class="li"><a href="faq.html" class="a deco">FAQs</a></li>
+              <li class="li"><a href="contact.html" class="a deco">Contact Us</a></li>
+                  <li class="li"><a href="aboutus.html" class="a deco">About Us</a></li>
+                  <li class="li"><a href="index.html" class="a deco">Home</a></li>
+
+        </ul>
+      </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="bottom">Copyright &copy; <a href="#" class="deco a">The Travelling Guide</a></p>
+      </div>
+        </footer>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/flight.js"></script>
+</body>
+</html>

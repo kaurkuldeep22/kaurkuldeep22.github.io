@@ -1,0 +1,68 @@
+/*cab page*/
+
+.bimage{
+    background-image: url('../images/cab.jpg');
+  }
+
+.pad{
+ padding-left:150px;
+}
+#head,#p3,#p4,#p1,#p2{
+  color:red;
+}
+/*home page*/
+.homeback{
+  background-image: url('../images/beach.jpg');
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.heading{
+  padding-top:100px;
+  text-align:center;
+  color:#fff
+}
+.subheading{
+  text-align:center;
+  color:#fff;
+}
+.row{
+  padding-left: 20px;
+  padding-right:20px;
+}
+
+
+/*gift page*/
+.flex-container{
+  display:flex;
+  flex-wrap:wrap;
+  align-content: space-around;
+  padding-top: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: green;
+  color:white;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
